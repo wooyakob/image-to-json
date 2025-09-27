@@ -1,0 +1,19 @@
+# Rust / Cargo
+# Ignore Cargo build output for all crates in the repo
+**/target/
+
+# rustfmt backup files
+**/*.rs.bk
+
+# Common editor/IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+
+# Logs and swap files
+*.log
+*.swp
+*.swo
